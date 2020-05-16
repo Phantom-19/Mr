@@ -10,15 +10,15 @@ import time,os,sys
  
 def auto(s):
     for c in s + '\n':
-        sys.stdout.write(c)
-        sys.stdout.flush()
-    time.sleep(0.009)
+             sys.stdout.write(c)
+             sys.stdout.flush()
+             time.sleep(0.009)
    
 def Street(z):
     for e in z + '\n':
-    sys.stdout.write(e)
-    sys.stdout.flush()
-    time.sleep(0.07)
+             sys.stdout.write(e)
+             sys.stdout.flush()
+             time.sleep(0.07)
 
     
 def faxel():
