@@ -1,24 +1,50 @@
-def menu():
+#!/usr/bin/python2
+#coding=utf-8
+# Le credit pour ce code va a Mr Hacker_K
+# Si vous voulez prendre Le credit pour ce code Voyez Faster Axel.
+
+
+import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
+from getpass import getpass
+
+def faxel():
+    mr = [
+     '*Faxel*', '      ', '*McTony*', '      ', '*Faxel*', '      ', '*McTony*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*McTony*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*McTony*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*McTony*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*McTony*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*McTony*\n']
+    for o in mr:
+        print '\r\x1b[1;97m[\x1b[1;32m●●\x1b[1;97m]   [38;5;221m  ' + o,
+        sys.stdout.flush()
+        time.sleep(0.15)
+
+def connexion():
       while True:
            os.system("clear")        
+           faxel() 
            print('')
            print('')
            print('')
            print('')
-           print('')
-           print('')
-           print('')
-           print('')
-           auto(logo)
            try:
-                nu = raw_input('\x1b[00m                  NOM UTILISATEUR      :\x1b[34m ')
-                mp = getpass('\x1b[00m                  MOT DE PASSE         :\x1b[33m ')
-                print ("")
+           
+                os.system('date | lolcat')
+                print("\033[1;97m╔"+27*"═"+1*"═╗")
+	          print "\033[1;97m║ \033[1;91m[\033[1;97mEcrit par[38;5;245m Mr [38;5;221mHacker_K\033[1;91m]\033[1;97m     ║"
+	          print "\033[1;97m║ [38;5;245m Mr [38;5;221mHacker_K\033[1;97m vous salut dans la paix du [48;5;0;38;5;198mCHRIST\033[1;97m ║"
+	          print "\033[1;97m║ [38;5;112m Auteur \033[1;91m: [38;5;245m Mr [38;5;221mHacker_K\033[1;97m          ║"
+	          print "\033[1;97m║ [38;5;115m Copyright \033[1;91m: 2020 \033[1;97m              ║" 
+	          print "\033[1;97m║ \033[1;93m▶▶▶▶[[38;5;116m Bonjour a tous\033[1;91m]\033[1;93m▶▶▶▶  ║"
+	          print("\033[1;97m╚"+27*"═"+1*"═╝")   
+	          print "\033[1;97m║"
+	          nu=raw_input("\033[1;97m╚═\033[1;31m▶[38;5;221m  NOM UTILISATEUR \033[1;31m: [48;5;0;38;5;197m")
+                print "\033[1;97m║"
+                mp = getpass('\033[1;97m╚═\033[1;31m▶[38;5;221m MOT DE PASSE    \033[1;31m: [38;5;214m')
+                print ("")[38;5;108m
                 if nu==usr and mp==pwd:
-                   os.system('clear')        
-                   auto(logo2)
                    os.system("sleep 5;cd;clear")
-                   print("")
+                   faxel()
+                   os.system('clear')
+                   print('[38;5;214m<═══════════════════════════════════════> ')
+                   os.system('figlet ' + nu + ' | lolcat')
+                   print('[38;5;214m<═══════════════════════════════════════> ')
                    break
                 else:
                       print("")
@@ -35,12 +61,16 @@ def menu():
                       print("")
                       print("")
                       print("")
-                      print("\x1b[91m			Accès refusé !")
+                      print("[38;5;108m			Accès refusé !")
                       time.sleep(2)
            except KeyboardInterrupt:
                       print("")
-                      print("")
-                      print("")
-                      print("")
-                      print("")
                       os.system('killall -9 com.termux')
+                      print("")
+                      print("")
+                      print("")
+                      print("")
+                      print("[38;5;111m     Accès refusé")
+                      time.sleep(2)
+  
+connexion()
