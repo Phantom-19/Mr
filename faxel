@@ -28,7 +28,15 @@ def faxel():
         print '\r\x1b[1;97m[\x1b[1;32m●●\x1b[1;97m]   [38;5;221m  ' + o,
         sys.stdout.flush()
         time.sleep(0.15)
-       
+
+	
+#####Logo de verification robotique######
+logo= """  
+\033[1;96mCréation de votre compte en cours\033[1;97m, patientez\033[1;93m.........
+\033[1;97m          ╔═══════════════════════════╗ 
+\033[1;97m          ║[38;5;214m█████████\033[1;97m███████████\033[1;92m███████100%\033[1;97m║
+\033[1;97m          ╚═══════════════════════════╝"""
+
 os.system('clear')
 ####################################################################################################	
 print"[38;5;214m<════════════════════\033[1;97mConnexion a[38;5;245m Mr \033[48;5;0;38;5;197mHacker_K[38;5;214m════════════════════>"
@@ -65,6 +73,7 @@ def creation():
   [38;5;214m•|  | |  \ \033[1;97m |  | |  | |___ | \_\033[1;32m |___ |  \ __| \_•    
   [38;5;214m●▬▬▬▬▬▬▬▬๑\033[1;97m●▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬●●▬▬▬▬▬\033[1;32m▬▬▬▬๑۩۩๑▬▬▬▬▬▬●\n""")  
            faxel()
+		
            os.system('clear') 
            os.system('date | lolcat')
            print("\033[1;97m╔"+44*"═"+1*"═╗")
@@ -87,21 +96,29 @@ def creation():
                mdp = raw_input("[1;97m╚═[1;31m▶ [38;5;221mChoisir un mot de passe      [1;31m: [1;96m")
                if mdp == '' in mdp:
                        creation()
-                                   
+		       os.system('sleep 0.5')
+                       auto(logo) 
+		       os.system('sleep 1')
                else:
                        os.system('clear')
-                       auto('\x1b[31m     [*] \033[042m      INSCRIPTION  REUSSIE    \x1b[31m    [*] \033[00m')
-                       print("")
-                       auto('\x1b[00mFichier enregistrer sous \x1b[36m/Mr/faxel.py')
-                       print("")
-                       auto('\x1b[00mNom d\'utilisateur & mot de passe enregistrer sous \x1b[36m/Mr/faxel4')
-                       print("")
-                       Street('\x1b[31m•◈•▬•◈•▬•◈•▬•◈•▬•◈•▬▬•◈•A bientot!•◈•▬•◈•▬▬•◈•▬•◈•▬•◈•▬•◈• ')
-                       os.system('sleep 4')
+		       
+		
+                       auto('\x1b[31m     [*] \033[042m      INSCRIPTION  REUSSIE    \x1b[31m    [*] \033[00m\n')
+ 
+		       Street('\x1b[31m•◈•▬•◈•▬•◈•▬•◈•▬•◈•▬▬•◈•Bienvenue!•◈•▬•◈•▬▬•◈•▬•◈•▬•◈•▬•◈•\n')
+                       auto('\x1b[00mFichier enregistrer sous \x1b[36m/Mr/Faxel.py\n')
+                       auto('\x1b[00mNom d\'utilisateur & mot de passe enregistrer sous \x1b[36m/Mr/Faxel4\n')            
+                       Street('\x1b[31m•◈•▬•◈•▬•◈•▬•◈•▬•◈•▬▬•◈•A bientot!•◈•▬•◈•▬▬•◈•▬•◈•▬•◈•▬•◈•\n ')
+			
+                       os.system('sleep 3')
+		
                        utilisateur ="usr='"+nom+"'"
                        mot_de_passe ="pwd='"+mdp+"'"
-                       os.system('print "'+utilisateur+'" > faxel4;print "'+mot_de_passe+'" >> faxel4')
-                       os.system('cat faxel1 > faxel.py;cat faxel4 >> faxel.py;cat faxel3 >> faxel.py;cat faxel2 >> faxel.py;python2 faxel.py')
+		
+                       os.system('print "'+utilisateur+'" > Faxel4;print "'+mot_de_passe+'" >> Faxel4')
+                       os.system('cat faxel1 > Faxel.py;cat Faxel4 >> Faxel.py;cat faxel3 >> Faxel.py;cat faxel2 >> Faxel.py;python2 Faxel.py')
  
- 
+
+
+
 creation()
