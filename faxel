@@ -1,0 +1,58 @@
+#!/usr/bin/python2
+# -*- coding: utf-8 -*-
+# coding=utf-8
+#Le crédit pour ce code va à Kouadio Antoine
+#Vous pouvez  recoder ce code mais toute fois mentionner le nom du developpeur Kouadio Antoine ...
+#Sinon vous n ets pas autoriser a le faire. Merci pour la comprehension.
+# github.com/Faxel19
+ 
+import time,os,sys
+ 
+def auto(s):
+    for c in s + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+    time.sleep(0.009)
+   
+def Street(z):
+    for e in z + '\n':
+    sys.stdout.write(e)
+    sys.stdout.flush()
+    time.sleep(0.1)
+   
+def enregistrement():
+    os.system('clear')
+    auto('       \x1b[00m\033[041m     || SECURISATION DE VOTRE ENVIRONNEMENT TERMUX ||   \033[00m')
+    print("")
+    print("")
+    entrer1 = raw_input('\x1b[31m [*]\x1b[35m Choisir un nom d\'utilisateur \x1b[31m   : \x1b[32m')
+    if entrer1 == '' in entrer1:
+        enregistrement()
+    else:
+        print("")
+        entrer2 = raw_input('\x1b[31m [*]\x1b[35m Choisir un mot de passe  \x1b[31m       : \x1b[00m')
+        if entrer2 == '' in entrer2:
+            enregistrement()
+                                   
+        else:
+            os.system('clear')
+            auto('\x1b[31m     [*] \033[042m      INSCRIPTION  REUSSIE    \x1b[31m    [*] \033[00m')
+            print("")
+            auto('\x1b[00mFichier enregistrer sous \x1b[36m/securite/faxel.py')
+            print("")
+            auto('\x1b[00mNom d\'utilisateur & mot de passe enregistrer sous \x1b[36m/securite/faxel4')
+            print("")
+            auto('\x1b[35mLa procedure:\x1b[00m c\'est dans la video pour ne pas se pertuber ou se perdre!  ')
+            print("")
+            auto('\x1b[36mMerci d\'utiliser le scrpit de Kouadio Antoine.')
+            print("")
+            Street('\x1b[37mN\'oubliez de vous abonnez et d\'activez \x1b[33m la cloche de Notification.')
+            print("")
+            Street('\x1b[31m•◈•▬•◈•▬•◈•▬•◈•▬•◈•▬▬•◈•A bientot!•◈•▬•◈•▬▬•◈•▬•◈•▬•◈•▬•◈• ')
+            os.system('sleep 4')
+            users ="usr='"+entrer1+"'"
+            passd ="pwd='"+entrer2+"'"
+            os.system('print "'+users+'" > faxel4;print "'+passd+'" >> faxel4')
+            os.system('cat faxel1 > faxel.py;cat faxel4 >> faxel.py;cat faxel3 >> faxel.py;cat faxel2 >> faxel.py;python2 faxel.py')
+ 
+enregistrement()
