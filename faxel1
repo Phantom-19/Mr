@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+# coding=utf-8
+import socket,struct,time,os,sys
+from getpass import getpass
+ 
+def auto(s):
+    for c in s + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(0.009)
+       
+def Street(z):
+    for e in z + '\n':
+        sys.stdout.write(e)
+        sys.stdout.flush()
+        time.sleep(0.1)
+ 
+logo = """ \033[1;96m                                _            
+\033[1;96m  ___ ___  _ __  _ __   _____  _(_) ___  _ __  
+\033[1;96m / __/ _ \| '_ \| '_ \ / _ \ \/ / |/ _ \| '_ \
+\033[1;96m| (_| (_) | | | | | | |  __/>  <| | (_) | | | |
+\033[1;96m \___\___/|_| |_|_| |_|\___/_/\_\_|\___/|_| |_|
+ 
+\033[1;95m       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░\x1b[00m\033[1;93m        VOUS ETES A VOTRE COMPTE            \033[00m\x1b[1;95m░░░░░░░░░░
+\033[1;95m       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+\033[1;93m   •◈•▬\033[1;97mJuste le temps de saisi vos données et c'est relaxe.\033[1;93m▬•◈•
+"""
