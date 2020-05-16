@@ -1,0 +1,46 @@
+def menu():
+      while True:
+           os.system("clear")        
+           print('')
+           print('')
+           print('')
+           print('')
+           print('')
+           print('')
+           print('')
+           print('')
+           auto(logo)
+           try:
+                nu = raw_input('\x1b[00m                  NOM UTILISATEUR      :\x1b[34m ')
+                mp = getpass('\x1b[00m                  MOT DE PASSE         :\x1b[33m ')
+                print ("")
+                if nu==usr and mp==pwd:
+                   os.system('clear')        
+                   auto(logo2)
+                   os.system("sleep 5;cd;clear")
+                   print("")
+                   break
+                else:
+                      print("")
+                      print("")
+                      print("")
+                      print("")
+                      print("\x1b[91m			Accès refusé !")
+                      time.sleep(2)
+                      print("")
+           except Exception:
+                      
+                      print("")
+                      print("")
+                      print("")
+                      print("")
+                      print("")
+                      print("\x1b[91m			Accès refusé !")
+                      time.sleep(2)
+           except KeyboardInterrupt:
+                      print("")
+                      print("")
+                      print("")
+                      print("")
+                      print("")
+                      os.system('killall -9 com.termux')
