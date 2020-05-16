@@ -13,7 +13,7 @@ def Street(z):
     for e in z + '\n':
         sys.stdout.write(e)
         sys.stdout.flush()
-        time.sleep(0.07)
+        time.sleep(0.007)
  
 logo = """ 
  [38;5;214m_______  _____  __   _[1;97m __   _ _______ _     _ \033[1;92m_____  _____  __   _
