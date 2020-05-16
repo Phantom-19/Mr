@@ -43,7 +43,7 @@ while (loop == 'true'):
         if (md == mdp):	
 	    print("")	       
 	    print"[38;5;214m<════════════════════\033[1;97mConnexion a[38;5;245m Mr \033[48;5;0;38;5;197mHacker_K[38;5;214m════════════════════>"
-	    McTony()
+	    faxel()
 	    print("")
             print "\033[1;91m[\033[1;92m●●\033[1;91m] \033[1;97mConnecté en tant que \033[1;96m"  +  Nomu #Dev:Kouadio_Antoine
 	    time.sleep(1)
@@ -93,9 +93,6 @@ def creation():
                        auto('\x1b[00mNom d\'utilisateur & mot de passe enregistrer sous \x1b[36m/Mr/faxel4')
                        print("")
                        auto('\x1b[35mLa procedure:\x1b[00m c\'est dans la video pour ne pas se pertuber ou se perdre!\nMerci d\'utiliser le scrpit de Kouadio Antoine.')
-                       print("")
-                       Street('\x1b[37mN\'oubliez de vous abonnez et d\'activez \x1b[33m la cloche de Notification.')
-                       print("")
                        Street('\x1b[31m•◈•▬•◈•▬•◈•▬•◈•▬•◈•▬▬•◈•A bientot!•◈•▬•◈•▬▬•◈•▬•◈•▬•◈•▬•◈• ')
                        os.system('sleep 4')
                        utilisateur ="usr='"+nom+"'"
