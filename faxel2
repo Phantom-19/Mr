@@ -63,7 +63,7 @@ def connexion():
 	        nu=raw_input("\033[1;97m╚═\033[1;31m▶[38;5;221m  NOM UTILISATEUR \033[1;31m: [48;5;0;38;5;197m")
                 print "\033[1;97m║"
                 mp = getpass('\033[1;97m╚═\033[1;31m▶[38;5;221m MOT DE PASSE    \033[1;31m: [38;5;214m')
-                print ("")[38;5;108m
+                print ("")
                 if nu==usr and mp==pwd:
                    os.system("sleep 5;cd;clear")
                    faxel()
@@ -81,7 +81,6 @@ def connexion():
                       time.sleep(2)
                       print("")
            except Exception:
-                      
                       print("")
                       print("")
                       print("")
@@ -91,12 +90,10 @@ def connexion():
                       time.sleep(2)
            except KeyboardInterrupt:
                       print("")
+                      print("")
+                      print("")
+                      print("")
+                      print("")
                       os.system('killall -9 com.termux')
-                      print("")
-                      print("")
-                      print("")
-                      print("")
-                      print("[38;5;111m     Accès refusé")
-                      time.sleep(2)
   
 connexion()
