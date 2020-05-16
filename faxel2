@@ -17,32 +17,7 @@ def faxel():
 
 	
 	
-os.system('clear')
-####################################################################################################	
-print"[38;5;214m<════════════════════\033[1;97mConnexion a[38;5;245m Mr \033[48;5;0;38;5;197mHacker_K[38;5;214m════════════════════>"
-Nu = "Hacker_K"
-print("")
-mdp = "08127934"
-loop = 'true'
-while (loop == 'true'):
-    Nomu = raw_input("\033[1;91m[\033[1;97m**\033[1;91m] \x1b[1;97mNom d'utilisateur de l'outil \x1b[1;91m»»»» [48;5;0;38;5;197m")
-    if (Nomu == Nu):
-    	md = raw_input("\033[1;91m[\033[1;97m++\033[1;91m] \x1b[1;97mMot de passe de l'outil      \x1b[1;91m»»»» [38;5;245m")
-        if (md == mdp):	
-	    print("")	       
-	    print"[38;5;214m<════════════════════\033[1;97mConnexion a[38;5;245m Mr \033[48;5;0;38;5;197mHacker_K[38;5;214m════════════════════>"
-	    McTony()
-	    print("")
-            print "\033[1;91m[\033[1;92m●●\033[1;91m] \033[1;97mConnecté en tant que \033[1;96m"  +  Nomu #Dev:Kouadio_Antoine
-	    time.sleep(1)
-            loop = 'false'
-        else:
-            print "\033[1;91m[\033[1;97mxx\033[1;91m] \033[1;93mMot de passe incorrect!!"
-            os.system('xdg-open https://wa.me/22555709610')
-    else:
-         print "\033[1;91m[\033[1;97mxx\033[1;91m] \033[1;94mNom d'utilisateur incorrect!!"
-         os.system('xdg-open https://t.me/Faxelh')	
-
+os.system("clear")  
 
 def connexion():
 	
