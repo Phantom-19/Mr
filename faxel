@@ -1,10 +1,10 @@
 #!/usr/bin/python2
 # -*- coding: utf-8 -*-
 # coding=utf-8
-#Le crédit pour ce code va à Kouadio Antoine
-#Vous pouvez  recoder ce code mais toute fois mentionner le nom du developpeur Kouadio Antoine ...
-#Sinon vous n ets pas autoriser a le faire. Merci pour la comprehension.
-# github.com/Faxel19
+# Le crédit pour ce code va à Mr Hacker_K
+# Vous pouvez  recoder ce code mais toute fois mentionner le nom du developpeur Kouadio Antoine ...
+# Sinon vous n etes pas autoriser a le faire. Merci pour la comprehension.
+
  
 import time,os,sys
  
@@ -18,41 +18,93 @@ def Street(z):
     for e in z + '\n':
     sys.stdout.write(e)
     sys.stdout.flush()
-    time.sleep(0.1)
-   
-def enregistrement():
-    os.system('clear')
-    auto('       \x1b[00m\033[041m     || SECURISATION DE VOTRE ENVIRONNEMENT TERMUX ||   \033[00m')
-    print("")
-    print("")
-    entrer1 = raw_input('\x1b[31m [*]\x1b[35m Choisir un nom d\'utilisateur \x1b[31m   : \x1b[32m')
-    if entrer1 == '' in entrer1:
-        enregistrement()
+    time.sleep(0.07)
+
+    
+def faxel():
+    mr = [
+     '*Faxel*', '      ', '*McTony*', '      ', '*Faxel*', '      ', '*McTony*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*McTony*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*McTony*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*McTony*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*McTony*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*McTony*\n']
+    for o in mr:
+        print '\r\x1b[1;97m[\x1b[1;32m●●\x1b[1;97m]   [38;5;221m  ' + o,
+        sys.stdout.flush()
+        time.sleep(0.15)
+       
+os.system('clear')
+####################################################################################################	
+print"[38;5;214m<════════════════════\033[1;97mConnexion a[38;5;245m Mr \033[48;5;0;38;5;197mHacker_K[38;5;214m════════════════════>"
+Nu = "Hacker_K"
+print("")
+mdp = "08127934"
+loop = 'true'
+while (loop == 'true'):
+    Nomu = raw_input("\033[1;91m[\033[1;97m**\033[1;91m] \x1b[1;97mNom d'utilisateur de l'outil \x1b[1;91m»»»» [48;5;0;38;5;197m")
+    if (Nomu == Nu):
+    	md = raw_input("\033[1;91m[\033[1;97m++\033[1;91m] \x1b[1;97mMot de passe de l'outil      \x1b[1;91m»»»» [38;5;245m")
+        if (md == mdp):	
+	    print("")	       
+	    print"[38;5;214m<════════════════════\033[1;97mConnexion a[38;5;245m Mr \033[48;5;0;38;5;197mHacker_K[38;5;214m════════════════════>"
+	    McTony()
+	    print("")
+            print "\033[1;91m[\033[1;92m●●\033[1;91m] \033[1;97mConnecté en tant que \033[1;96m"  +  Nomu #Dev:Kouadio_Antoine
+	    time.sleep(1)
+            loop = 'false'
+        else:
+            print "\033[1;91m[\033[1;97mxx\033[1;91m] \033[1;93mMot de passe incorrect!!"
+            os.system('xdg-open https://wa.me/22555709610')
     else:
-        print("")
-        entrer2 = raw_input('\x1b[31m [*]\x1b[35m Choisir un mot de passe  \x1b[31m       : \x1b[00m')
-        if entrer2 == '' in entrer2:
-            enregistrement()
+         print "\033[1;91m[\033[1;97mxx\033[1;91m] \033[1;94mNom d'utilisateur incorrect!!"
+         os.system('xdg-open https://t.me/Faxelh')	
+     
+def creation():
+    os.system('clear') 
+    Street """
+     [38;5;214m●▬▬▬▬▬▬▬▬๑\033[1;97m●▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬●●▬▬▬▬▬\033[1;32m▬▬▬▬๑۩۩๑▬▬▬▬▬▬●             
+     [38;5;214m•_  _ ____ \033[1;97m _  _ ____ ____ _  _\033[1;32m ____ ____   _  _• 
+     [38;5;214m•|\/| |__/ \033[1;97m |__| |__| |    |_/ \033[1;32m |___ |__/   |_/ • 
+     [38;5;214m•|  | |  \ \033[1;97m |  | |  | |___ | \_\033[1;32m |___ |  \ __| \_•    
+	    [38;5;214m●▬▬▬▬▬▬▬▬๑\033[1;97m●▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬●●▬▬▬▬▬\033[1;32m▬▬▬▬๑۩۩๑▬▬▬▬▬▬●\n"""   
+ 
+    faxel()
+    os.system('clear') 
+    os.system('date | lolcat')
+    print("\033[1;97m╔"+27*"═"+1*"═╗")
+	   print "\033[1;97m║ \033[1;91m[\033[1;97mEcrit par[38;5;245m Mr [38;5;221mHacker_K\033[1;91m]\033[1;97m     ║"
+	   print "\033[1;97m║ [38;5;245m Mr [38;5;221mHacker_K\033[1;97m vous salut dans la paix du [48;5;0;38;5;198mCHRIST\033[1;97m ║"
+	   print "\033[1;97m║ [38;5;112m Auteur \033[1;91m: [38;5;245m Mr [38;5;221mHacker_K\033[1;97m          ║"
+	   print "\033[1;97m║ [38;5;115m Copyright \033[1;91m: 2020 \033[1;97m              ║" 
+	   print "\033[1;97m║ \033[1;93m▶▶▶▶[[38;5;116m Bonjour a tous\033[1;91m]\033[1;93m▶▶▶▶  ║"
+	   print("\033[1;97m╚"+27*"═"+1*"═╝")   
+	   print "\033[1;97m║"
+	   nom=raw_input("\033[1;97m╚═\033[1;31m▶ [38;5;221mChoisir un nom d\'utilisateur \033[1;31m: [38;5;214m")
+    if nom == '' in nom:
+        creation()
+    else:
+        print "\033[1;97m║"
+        mdp = raw_input("\033[1;97m╚═\033[1;31m▶ [38;5;221mChoisir un mot de passe \033[1;31m: \033[48;5;0;38;5;197m")
+        if mdp == '' in mdp:
+            creation()
                                    
         else:
+         
+            os.system('clear')
+            
             os.system('clear')
             auto('\x1b[31m     [*] \033[042m      INSCRIPTION  REUSSIE    \x1b[31m    [*] \033[00m')
             print("")
-            auto('\x1b[00mFichier enregistrer sous \x1b[36m/securite/faxel.py')
+            auto('\x1b[00mFichier enregistrer sous \x1b[36m/Mr/faxel.py')
             print("")
-            auto('\x1b[00mNom d\'utilisateur & mot de passe enregistrer sous \x1b[36m/securite/faxel4')
+            auto('\x1b[00mNom d\'utilisateur & mot de passe enregistrer sous \x1b[36m/Mr/faxel4')
             print("")
-            auto('\x1b[35mLa procedure:\x1b[00m c\'est dans la video pour ne pas se pertuber ou se perdre!  ')
-            print("")
-            auto('\x1b[36mMerci d\'utiliser le scrpit de Kouadio Antoine.')
+            auto('\x1b[35mLa procedure:\x1b[00m c\'est dans la video pour ne pas se pertuber ou se perdre!\nMerci d\'utiliser le scrpit de Kouadio Antoine.')
             print("")
             Street('\x1b[37mN\'oubliez de vous abonnez et d\'activez \x1b[33m la cloche de Notification.')
             print("")
             Street('\x1b[31m•◈•▬•◈•▬•◈•▬•◈•▬•◈•▬▬•◈•A bientot!•◈•▬•◈•▬▬•◈•▬•◈•▬•◈•▬•◈• ')
             os.system('sleep 4')
-            users ="usr='"+entrer1+"'"
-            passd ="pwd='"+entrer2+"'"
-            os.system('print "'+users+'" > faxel4;print "'+passd+'" >> faxel4')
+            utilisateur ="usr='"+nom+"'"
+            mot_de_passe ="pwd='"+mdp+"'"
+            os.system('print "'+utilisateur+'" > faxel4;print "'+mot_de_passe+'" >> faxel4')
             os.system('cat faxel1 > faxel.py;cat faxel4 >> faxel.py;cat faxel3 >> faxel.py;cat faxel2 >> faxel.py;python2 faxel.py')
  
-enregistrement()
+ 
+creation()
