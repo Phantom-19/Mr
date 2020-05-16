@@ -89,7 +89,7 @@ def menu():
 	      print("\033[1;97m╚"+27*"═"+1*"═╝")   
 	      print "\033[1;97m║"
 	      choisir=raw_input("\033[1;97m╚═\033[1;31m▶[38;5;245m Mr [38;5;221mHacker_K\033[1;31m▶▶▶ \033[1;33m")
-	      if " " in choisir :
+	      if "1" or "01" in choisir :
 		            os.system('clear')
 		            h = raw_input("\033[1;91m[\033[1;97m??\033[1;91m] \033[1;97mVous voulez-vous effectuer a une mise a jour du script ? \033[1;94m[\033[1;92mo/\033[1;91mn\033[1;94m]\033[1;91m : \033[1;97m ")
 		            if h =="n" or h =="N":
