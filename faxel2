@@ -42,28 +42,25 @@ while (loop == 'true'):
     else:
          print "\033[1;91m[\033[1;97mxx\033[1;91m] \033[1;94mNom d'utilisateur incorrect!!"
          os.system('xdg-open https://t.me/Faxelh')	
-os.system("clear")
+
 
 def connexion():
       while True:
            os.system("clear")        
            faxel() 
-           print('')
-           print('')
-           print('')
-           print('')
+           os.system("clear")
            try:
            
                 os.system('date | lolcat')
                 print("\033[1;97m╔"+27*"═"+1*"═╗")
-	          print "\033[1;97m║ \033[1;91m[\033[1;97mEcrit par[38;5;245m Mr [38;5;221mHacker_K\033[1;91m]\033[1;97m     ║"
-	          print "\033[1;97m║ [38;5;245m Mr [38;5;221mHacker_K\033[1;97m vous salut dans la paix du [48;5;0;38;5;198mCHRIST\033[1;97m ║"
-	          print "\033[1;97m║ [38;5;112m Auteur \033[1;91m: [38;5;245m Mr [38;5;221mHacker_K\033[1;97m          ║"
-	          print "\033[1;97m║ [38;5;115m Copyright \033[1;91m: 2020 \033[1;97m              ║" 
-	          print "\033[1;97m║ \033[1;93m▶▶▶▶[[38;5;116m Bonjour a tous\033[1;91m]\033[1;93m▶▶▶▶  ║"
-	          print("\033[1;97m╚"+27*"═"+1*"═╝")   
-	          print "\033[1;97m║"
-	          nu=raw_input("\033[1;97m╚═\033[1;31m▶[38;5;221m  NOM UTILISATEUR \033[1;31m: [48;5;0;38;5;197m")
+	        print "\033[1;97m║ \033[1;91m[\033[1;97mEcrit par[38;5;245m Mr [38;5;221mHacker_K\033[1;91m]\033[1;97m     ║"
+	        print "\033[1;97m║ [38;5;245m Mr [38;5;221mHacker_K\033[1;97m vous salut dans la paix du [48;5;0;38;5;198mCHRIST\033[1;97m ║"
+	        print "\033[1;97m║ [38;5;112m Auteur \033[1;91m: [38;5;245m Mr [38;5;221mHacker_K\033[1;97m          ║"
+	        print "\033[1;97m║ [38;5;115m Copyright \033[1;91m: 2020 \033[1;97m              ║" 
+	        print "\033[1;97m║ \033[1;93m▶▶▶▶[[38;5;116m Bonjour a tous\033[1;91m]\033[1;93m▶▶▶▶  ║"
+	        print("\033[1;97m╚"+27*"═"+1*"═╝")   
+	        print "\033[1;97m║"
+	        nu=raw_input("\033[1;97m╚═\033[1;31m▶[38;5;221m  NOM UTILISATEUR \033[1;31m: [48;5;0;38;5;197m")
                 print "\033[1;97m║"
                 mp = getpass('\033[1;97m╚═\033[1;31m▶[38;5;221m MOT DE PASSE    \033[1;31m: [38;5;214m')
                 print ("")[38;5;108m
