@@ -56,18 +56,18 @@ while (loop == 'true'):
          os.system('xdg-open https://t.me/Faxelh')	
      
 def creation():
-    os.system('clear') 
-    Street """
-     [38;5;214m●▬▬▬▬▬▬▬▬๑\033[1;97m●▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬●●▬▬▬▬▬\033[1;32m▬▬▬▬๑۩۩๑▬▬▬▬▬▬●             
-     [38;5;214m•_  _ ____ \033[1;97m _  _ ____ ____ _  _\033[1;32m ____ ____   _  _• 
-     [38;5;214m•|\/| |__/ \033[1;97m |__| |__| |    |_/ \033[1;32m |___ |__/   |_/ • 
-     [38;5;214m•|  | |  \ \033[1;97m |  | |  | |___ | \_\033[1;32m |___ |  \ __| \_•    
+	
+           os.system('clear') 
+           Street """
+            [38;5;214m●▬▬▬▬▬▬▬▬๑\033[1;97m●▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬●●▬▬▬▬▬\033[1;32m▬▬▬▬๑۩۩๑▬▬▬▬▬▬●             
+            [38;5;214m•_  _ ____ \033[1;97m _  _ ____ ____ _  _\033[1;32m ____ ____   _  _• 
+            [38;5;214m•|\/| |__/ \033[1;97m |__| |__| |    |_/ \033[1;32m |___ |__/   |_/ • 
+            [38;5;214m•|  | |  \ \033[1;97m |  | |  | |___ | \_\033[1;32m |___ |  \ __| \_•    
 	    [38;5;214m●▬▬▬▬▬▬▬▬๑\033[1;97m●▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬●●▬▬▬▬▬\033[1;32m▬▬▬▬๑۩۩๑▬▬▬▬▬▬●\n"""   
- 
-    faxel()
-    os.system('clear') 
-    os.system('date | lolcat')
-    print("\033[1;97m╔"+27*"═"+1*"═╗")
+           faxel()
+           os.system('clear') 
+           os.system('date | lolcat')
+           print("\033[1;97m╔"+27*"═"+1*"═╗")
 	   print "\033[1;97m║ \033[1;91m[\033[1;97mEcrit par[38;5;245m Mr [38;5;221mHacker_K\033[1;91m]\033[1;97m     ║"
 	   print "\033[1;97m║ [38;5;245m Mr [38;5;221mHacker_K\033[1;97m vous salut dans la paix du [48;5;0;38;5;198mCHRIST\033[1;97m ║"
 	   print "\033[1;97m║ [38;5;112m Auteur \033[1;91m: [38;5;245m Mr [38;5;221mHacker_K\033[1;97m          ║"
@@ -76,35 +76,32 @@ def creation():
 	   print("\033[1;97m╚"+27*"═"+1*"═╝")   
 	   print "\033[1;97m║"
 	   nom=raw_input("\033[1;97m╚═\033[1;31m▶ [38;5;221mChoisir un nom d\'utilisateur \033[1;31m: [38;5;214m")
-    if nom == '' in nom:
-        creation()
-    else:
-        print "\033[1;97m║"
-        mdp = raw_input("\033[1;97m╚═\033[1;31m▶ [38;5;221mChoisir un mot de passe \033[1;31m: \033[48;5;0;38;5;197m")
-        if mdp == '' in mdp:
-            creation()
+           if nom == '' in nom:
+                       creation()
+           else:
+               print "\033[1;97m║"
+               mdp = raw_input("\033[1;97m╚═\033[1;31m▶ [38;5;221mChoisir un mot de passe \033[1;31m: \033[48;5;0;38;5;197m")
+               if mdp == '' in mdp:
+                       creation()
                                    
-        else:
-         
-            os.system('clear')
-            
-            os.system('clear')
-            auto('\x1b[31m     [*] \033[042m      INSCRIPTION  REUSSIE    \x1b[31m    [*] \033[00m')
-            print("")
-            auto('\x1b[00mFichier enregistrer sous \x1b[36m/Mr/faxel.py')
-            print("")
-            auto('\x1b[00mNom d\'utilisateur & mot de passe enregistrer sous \x1b[36m/Mr/faxel4')
-            print("")
-            auto('\x1b[35mLa procedure:\x1b[00m c\'est dans la video pour ne pas se pertuber ou se perdre!\nMerci d\'utiliser le scrpit de Kouadio Antoine.')
-            print("")
-            Street('\x1b[37mN\'oubliez de vous abonnez et d\'activez \x1b[33m la cloche de Notification.')
-            print("")
-            Street('\x1b[31m•◈•▬•◈•▬•◈•▬•◈•▬•◈•▬▬•◈•A bientot!•◈•▬•◈•▬▬•◈•▬•◈•▬•◈•▬•◈• ')
-            os.system('sleep 4')
-            utilisateur ="usr='"+nom+"'"
-            mot_de_passe ="pwd='"+mdp+"'"
-            os.system('print "'+utilisateur+'" > faxel4;print "'+mot_de_passe+'" >> faxel4')
-            os.system('cat faxel1 > faxel.py;cat faxel4 >> faxel.py;cat faxel3 >> faxel.py;cat faxel2 >> faxel.py;python2 faxel.py')
+               else:
+                       os.system('clear')
+                       auto('\x1b[31m     [*] \033[042m      INSCRIPTION  REUSSIE    \x1b[31m    [*] \033[00m')
+                       print("")
+                       auto('\x1b[00mFichier enregistrer sous \x1b[36m/Mr/faxel.py')
+                       print("")
+                       auto('\x1b[00mNom d\'utilisateur & mot de passe enregistrer sous \x1b[36m/Mr/faxel4')
+                       print("")
+                       auto('\x1b[35mLa procedure:\x1b[00m c\'est dans la video pour ne pas se pertuber ou se perdre!\nMerci d\'utiliser le scrpit de Kouadio Antoine.')
+                       print("")
+                       Street('\x1b[37mN\'oubliez de vous abonnez et d\'activez \x1b[33m la cloche de Notification.')
+                       print("")
+                       Street('\x1b[31m•◈•▬•◈•▬•◈•▬•◈•▬•◈•▬▬•◈•A bientot!•◈•▬•◈•▬▬•◈•▬•◈•▬•◈•▬•◈• ')
+                       os.system('sleep 4')
+                       utilisateur ="usr='"+nom+"'"
+                       mot_de_passe ="pwd='"+mdp+"'"
+                       os.system('print "'+utilisateur+'" > faxel4;print "'+mot_de_passe+'" >> faxel4')
+                       os.system('cat faxel1 > faxel.py;cat faxel4 >> faxel.py;cat faxel3 >> faxel.py;cat faxel2 >> faxel.py;python2 faxel.py')
  
  
 creation()
