@@ -92,17 +92,19 @@ def creation():
            if nom == '' in nom:
                        creation()
            else:
+		
                print "\033[1;97m║"
                mdp = raw_input("[1;97m╚═[1;31m▶ [38;5;221mChoisir un mot de passe      [1;31m: [1;96m")
                if mdp == '' in mdp:
                        creation()
+			
+               else:
+		       
 		       os.system('sleep 0.5')
                        auto(logo) 
 		       os.system('sleep 1')
-               else:
                        os.system('clear')
-		       
-		
+
                        auto('\x1b[31m     [*] \033[042m      INSCRIPTION  REUSSIE    \x1b[31m    [*] \033[00m\n')
  
 		       Street('\x1b[31m•◈•▬•◈•▬•◈•▬•◈•▬•◈•▬▬•◈•Bienvenue!•◈•▬•◈•▬▬•◈•▬•◈•▬•◈•▬•◈•\n')
