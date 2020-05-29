@@ -52,7 +52,8 @@ if not numero:
   print("\033[1;91m[\033[1;93m**\033[1;91m] Veuillez saisir un numéro whatsapp! \033[1;91m[\033[1;93m**\033[1;91m] ")
   print("\033[1;92m")
   print("")
-  faxel()
+  raw_input("\n\033[1;91m[ \033[1;97mRetour \033[1;91m]")
+
   os.system("clear")
   os.system("python2 wa")
 
