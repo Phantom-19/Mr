@@ -1,17 +1,18 @@
 #python 2.7
 #coding=utf-8
+
 from time import sleep
 import os, sys,time
 
 
 
  #-Automatisation-#
+
 def Street(z):
     for e in z + '\n':
         sys.stdout.write(e)
         sys.stdout.flush()
         time.sleep(0.0009)
-
 
 
 
@@ -29,13 +30,14 @@ faxel()
 os.system("clear")
         
 #\033[38;5;214m && \033[1;91m[\033[1;93m**\033[1;91m]
+
 Street("""
 \033[1;97m╔═════════════════════════════════════════════╗
 \033[1;97m║\033[1;91m[\033[1;93m**\033[1;91m]\033[38;5;95m      Developpeur \033[1;97m:\033[38;5;214m  Faxel           \033[1;91m[\033[1;93m**\033[1;91m]\033[1;97m║
 \033[1;97m╚═════════════════════════════════════════════╝""")
 
 
-Street ("\n\033[38;5;224mGenerateur de  lien  pour la discussion sur whatsapp")
+Street ("\n\033[1;91m[\033[1;93m**\033[1;91m] \033[38;5;224mGenerateur de  lien  pour la discussion sur whatsapp")
 print("\n") 
 Street("\033[1;91m[\033[1;93m**\033[1;91m]\033[1;92m Note \033[1;971m: \033[1;97mLe numéro doit être précédé du code indicatif \033[1;91m(\033[1;97mex\033[1;91m:\033[1;95m225\033[1;93mxxxx\033[1;91m)")
 print("")   
@@ -62,10 +64,9 @@ else:
   print("\033[1;91m[\033[1;93m**\033[1;91m]\033[1;93m Procès en cours\033[1;97m,\033[1;93m patientez\033[1;92m ..........\033[1;91m[\033[1;93m**\033[1;91m] ")
   print (".")
   time.sleep(4)
-  print("\033[1;91m[\033[1;93m**\033[1;91m]                                     \033[1;91m[\033[1;93m**\033[1;91m]\n")
-  print("\033[1;91m[\033[1;93m**\033[1;91m]\033[1;97m  Votre lien de discussion whatsapp    \033[1;91m[\033[1;93m**\033[1;91m]")
-  print("\n\n\033[1;92m")
+  print("\033[1;91m[\033[1;93m**\033[1;91m]                                           \033[1;91m[\033[1;93m**\033[1;91m]\n")
+  print("\033[1;91m[\033[1;93m**\033[1;91m]\033[1;97m  Votre lien de discussion whatsapp    \033[1;91m[\033[1;93m**\033[1;91m]\n\033[1;92m")
   print(whatsapp_api+numero)
-  print("\n\033[1;91m[\033[1;93m**\033[1;91m]                                     \033[1;91m[\033[1;93m**\033[1;91m]\n")
-  Street ("\033[1;91m[\033[1;93m**\033[1;91m] \033[38;5;214mFaxel\033[1;97m un jour, \033[38;5;214mFaxel \033[1;97mtoujours      \033[1;91m[\033[1;93m**\033[1;91m]")
+  print("\n\033[1;91m[\033[1;93m**\033[1;91m]                                         \033[1;91m[\033[1;93m**\033[1;91m]\n")
+  Street ("\033[1;91m[\033[1;93m**\033[1;91m] \033[38;5;214mFaxel\033[1;97m un jour,    \033[38;5;214mFaxel \033[1;97mtoujours      \033[1;91m[\033[1;93m**\033[1;91m]")
   raw_input("\n\033[1;91m[ \033[1;97mRetour \033[1;91m]")
