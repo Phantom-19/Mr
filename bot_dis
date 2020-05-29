@@ -12,7 +12,17 @@ def McTony():
         print '\r\x1b[1;97m[\x1b[1;32m●●\x1b[1;97m]   [38;5;221m  ' + o,
         sys.stdout.flush()
         time.sleep(0.15)
+#Package
 
+
+try:
+  import discord
+  from discord.ext import commands
+  from discord.ext.commands import Bot
+except:
+  print("[!] discord.py  n\'est pas installer")
+  print("[i] Désolé ce robot ne peut être exécuter sur  Dcoder")
+  sys.exit()
 
 
 #Désolé, vous ne pouvez pas exécuter ce script dans Dcoder :)
@@ -35,17 +45,7 @@ A: Exécuter sur VPS, par exemple Heroku, Vultr, AWS
 R: Cela fera fonctionner le bot 24h / 24 et 7j / 7 sans que votre ordinateur soit toujours allumé et en ligne, sauf si vous fermez le bot
 
 """
-#Package
 
-import sys
-try:
-  import discord
-  from discord.ext import commands
-  from discord.ext.commands import Bot
-except:
-  print("[!] discord.py  n\'est pas installer")
-  print("[i] Désolé ce robot ne peut être exécuter sur  Dcoder")
-  sys.exit()
 #Config
 token = "<Votre jeton>" # entrer votre  jeton
 prefix = "<Votre prefixe>" # 
