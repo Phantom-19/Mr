@@ -1,5 +1,5 @@
 #python 2.7.15
-
+# coding=utf-8
 from time import sleep
 import os, sys,time
 raw_input= input 
@@ -22,7 +22,7 @@ numero = raw_input("\033[38;5;248mEntrer votre numero whatsapp \033[1;91m:\033[1
 whatsapp_web =("https://whatsapp.com/")
 whatsapp_api =("https://api.whatsapp.com/send?phone=")
 
-#generateeur
+#generateur
 
 if not numero:
   print("\033[1;91m")
