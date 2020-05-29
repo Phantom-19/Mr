@@ -56,7 +56,7 @@ client = commands.Bot(command_prefix=prefix)
 
 
 @client.event
-  def on_ready():
+def on_ready():
   print("Discord Package Version" + discord.__version__)
 # Changement de Status sur  discord  
 
@@ -77,7 +77,7 @@ client = commands.Bot(command_prefix=prefix)
 # ENVOYER UN MESSAGE BONJOUR
 
 @client.command()
-  def hello(ctx):
+def hello(ctx):
   await ctx.send(f"Hello ^_^ {ctx.author.mention}")
   
 # ↓ Vous pouvez ajouter plus de commandes ici ↓
