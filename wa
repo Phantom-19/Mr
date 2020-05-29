@@ -1,4 +1,4 @@
-#python 2.7.15
+#python 2.7
 #coding=utf-8
 from time import sleep
 import os, sys,time
