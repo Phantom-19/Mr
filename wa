@@ -1,0 +1,56 @@
+#python 2.7.15
+# coding=utf-8
+from time import sleep
+import os, sys,time
+
+
+
+ #-Automatisation-#
+def Street(z):
+    for e in z + '\n':
+        sys.stdout.write(e)
+        sys.stdout.flush()
+        time.sleep(0.09)
+
+
+
+os.system("clear")
+McTony()
+os.system("clear")
+        
+#\033[38;5;214m && \033[1;91m[\033[1;93m**\033[1;91m]
+Street("""
+\033[1;97m╔════════════════════════════════════╗
+\033[1;97m║\033[1;91m[\033[1;93m**\033[1;91m]\033[38;5;95m      Developpeur \033[1;97m:\033[38;5;214m  Faxel           \033[1;91m[\033[1;93m**\033[1;91m]\033[1;97m║
+\033[1;97m╚════════════════════════════════════╝""")
+
+
+Street ("\033[38;5;224mGenerateur de  lien  pour la discussion sur whatsapp")
+print("") 
+
+Street("\033[1;91m[\033[1;93m**\033[1;91m]\033[1;92m Note \033[1;971m: \033[1;97mLe numéro doit être précédé du code indicatif \033[1;91m(\033[1;97mex\033[1;91m:\033[1;95m225\033[1;93mxxxx\033[1;91m)")
+print("")   
+
+numero = raw_input("\033[1;91m[\033[1;93m**\033[1;91m] \033[38;5;248mEntrer votre numero whatsapp\033[1;91m :\033[1;96m ")
+
+whatsapp_web =("https://whatsapp.com/")
+whatsapp_api =("https://api.whatsapp.com/send?phone=")
+
+#generateeur
+
+if not numero:
+  print("")
+  print("\033[1;91m[\033[1;93m**\033[1;91m] Veuillez saisir un numéro whatsapp! \033[1;91m[\033[1;93m**\033[1;91m] ")
+  print("\033[1;92m")
+else:
+  print("")
+  print("\033[1;91m[\033[1;93m**\033[1;91m]\033[1;93m Procès en cours\033[1;97m,\033[1;93m patientez\033[1;92m ..........\033[1;91m[\033[1;93m**\033[1;91m] ")
+  print (".")
+  time.sleep(4)
+  print("\033[1;91m[\033[1;93m**\033[1;91m]                                    \033[1;91m[\033[1;93m**\033[1;91m]\n")
+  print ("\033[1;91m[\033[1;93m**\033[1;91m]\033[1;97m  Votre lien de discussion whatsapp    \033[1;91m[\033[1;93m**\033[1;91m]\n\n\033[1;92m",whatsapp_api+numero)
+  print("\n\033[1;91m[\033[1;93m**\033[1;91m]                                   \033[1;91m[\033[1;93m**\033[1;91m]\n")
+  Street ("\033[1;91m[\033[1;93m**\033[1;91m] \033[38;5;214mFaxel\033[1;97m un jour, \033[38;5;214mFaxel \033[1;97mtoujours      \033[1;91m[\033[1;93m**\033[1;91m]")
+  
+  print("\033[1;95m")
+  
