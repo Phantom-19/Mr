@@ -1,7 +1,7 @@
 #!/usr/bin/python2
 #coding=utf-8
-# Le credit pour ce code va a Mr Faxel
-# Si vous voulez prendre Le credit pour ce code Voyez Faxel.
+# Le credit pour ce code va a :🄼🅁 🄵🄰🅇🄴🄻
+# Si vous voulez prendre Le credit pour ce code Voyez 🄵🄰🅇🄴🄻.
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from getpass import getpass
