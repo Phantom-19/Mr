@@ -23,7 +23,7 @@ def connexion():
                 os.system('date | lolcat')
                 print("\033[1;97m╔"+44*"═"+1*"═╗")
 	        print "\033[1;97m║[1;97m                                             ║"
-	        print "\033[1;97m║[1;91m[[38;5;245mYoutube[48;5;0;38;5;194m FASTER AXEL[1;91m][1;97m                        ║"  ║"
+	        print "\033[1;97m║[1;91m[[38;5;245mYoutube[48;5;0;38;5;194m FASTER AXEL[1;91m][1;97m                        ║" 
 	        print "\033[1;97m║[1;97m                                             ║"
 	        print "\033[1;97m║[38;5;245mMr [38;5;221mFaxel[1;97m vous salut dans la paix du [48;5;0;38;5;198mCHRIST   [1;97m║"
 	        print "\033[1;97m║[1;97m                                             ║"
