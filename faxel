@@ -1,8 +1,8 @@
 #!/usr/bin/python2
 # -*- coding: utf-8 -*-
 # coding=utf-8
-# Le crédit pour ce code va à Mr Faxel
-# Vous pouvez  recoder ce code mais toute fois mentionner le nom du developpeur Faxel ...
+# Le crédit pour ce code va à 🄼🅁 🄵🄰🅇🄴🄻
+# Vous pouvez  recoder ce code mais toute fois mentionner le nom du developpeur  🄵🄰🅇🄴🄻 ...
 # Sinon vous n etes pas autoriser a le faire. Merci pour la comprehension.
 
  
@@ -53,7 +53,7 @@ while (loop == 'true'):
 	    print"[38;5;214m<════════════════════\033[1;97mConnexion a[38;5;245m Mr \033[48;5;0;38;5;197mFaxel[38;5;214m════════════════════>"
 	    faxel()
 	    print("")
-            print "\033[1;91m[\033[1;92m●●\033[1;91m] \033[1;97mConnecté en tant que \033[1;96m"  +  Nomu #Dev:Faxel
+            print "\033[1;91m[\033[1;92m●●\033[1;91m] \033[1;97mConnecté en tant que \033[1;96m"  +  Nomu #Dev:🄼🅁 🄵🄰🅇🄴🄻
 	    time.sleep(1)
             loop = 'false'
         else:
@@ -71,13 +71,12 @@ def creation():
   [38;5;214m█▀▄▀█ █▀█\033[1;97m █▀▀ ▄▀█ ▀\033[1;32m▄▀ █▀▀ █░░
   [38;5;214m█░▀░█ █▀▄\033[1;97m █▀░ █▀█ █\033[1;32m░█ ██▄ █▄▄
   [38;5;214m●▬▬▬▬▬▬▬๑\033[1;97m●▬▬▬▬๑۩[38;5;221m🄼🅁 🄵🄰🅇🄴🄻033[1;97m۩๑▬▬▬▬▬●●▬▬▬▬\033[1;32m▬▬▬๑۩۩๑▬▬▬●\n""") 				       
-           faxel()
-		
+           faxel()	
            os.system('clear') 
            os.system('date | lolcat')
            print("\033[1;97m╔"+44*"═"+1*"═╗")
 	   print "\033[1;97m║[1;97m                                             ║"
-	   print "\033[1;97m║[1;91m[[38;5;245mYoutube[48;5;0;38;5;194m FASTER AXEL[1;91m][1;97m                        ║"  ║"
+	   print "\033[1;97m║[1;91m[[38;5;245mYoutube[48;5;0;38;5;194m FASTER AXEL[1;91m][1;97m                        ║"  
 	   print "\033[1;97m║[1;97m                                             ║"
 	   print "\033[1;97m║[38;5;245mMr [38;5;221mFaxel[1;97m vous salut dans la paix du [48;5;0;38;5;198mCHRIST   [1;97m║"
 	   print "\033[1;97m║[1;97m                                             ║"
