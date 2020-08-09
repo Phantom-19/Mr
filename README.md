@@ -1,16 +1,19 @@
 <p align="left">
-<a href="#"><img title="Made in Ivory Coast" src="https://img.shields.io/badge/MADE%20IN-IVORY COAST-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="Made in Ivory Coast" src="https://img.shields.io/badge/MADE%20IN-IVORY COAST-green?colorA=%23ff0000&colorB=%23017e40"></a>
 </p>
-<p align="center"
-<a href="https://github.com/Faxel18"><img title="Auteur" src="https://img.shields.io/badge/Auteur-Faxel-red.svg?style=for-the-badge&logo=github"></a>
+<p align="center">
+<img alt="Phantom-19' Statistiques Github" src="https://github-readme-stats.vercel.app/api?username=Phantom-19&show_icons=true&include_all_commits=true&hide_border=true"/>
+<img alt="profile pic" width="195px" src="https://raw.githubusercontent.com/Phantom-19/bash/master/fr.jpg"/> 
+<img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=Phantom-19&hide=ruby,perl&hide_border=true"/>
+</p> 
 <a href="#"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4-green?style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="#"><img title="Version" src="https://img.shields.io/badge/Version-4.0-green.svg?style=flat-square"></a>
-<a href="https://github.com/Faxel18/followers"><img title="Abonnés" src="https://img.shields.io/github/followers/Faxel18?color=blue&style=flat-square"></a>
-<a href="https://github.com/Faxel18/Mr/stargazers/"><img title="Étoiles" src="https://img.shields.io/github/stars/Faxel18/Mr??color=red&style=flat-square"></a>
-<a href="https://github.com/Faxel18/Mr/network/members"><img title="Fourches" src="https://img.shields.io/github/forks/Faxel18/Mr??color=red&style=flat-square"></a>
-<a href="https://github.com/Faxel18/Mr/watchers"><img title="En train de regarder" src="https://img.shields.io/github/watchers/Faxel18/Mr?label=Watchers&color=blue&style=flat-square"></a>
+<a href="#"><img title="Version" src="https://img.shields.io/badge/Version-15.0-green.svg?style=flat-square"></a>
+<a href="https://github.com/Phantom-19/followers"><img title="Abonnés" src="https://img.shields.io/github/followers/Phantom-19?color=blue&style=flat-square"></a>
+<a href="https://github.com/Phantom-19/Mr/stargazers/"><img title="Étoiles" src="https://img.shields.io/github/stars/Phantom-19/Mr??color=red&style=flat-square"></a>
+<a href="https://github.com/Phantom-19/Mr/network/members"><img title="Fourches" src="https://img.shields.io/github/forks/Phantom-19/Mr??color=red&style=flat-square"></a>
+<a href="https://github.com/Phantom-19/Mr/watchers"><img title="En train de regarder" src="https://img.shields.io/github/watchers/Phantom-19/Mr?label=Watchers&color=blue&style=flat-square"></a>
 <p align="right">
 <a href="#"><img title="Langage" src="https://forthebadge.com/images/badges/made-with-python.svg"></a>
 </p>
@@ -29,8 +32,6 @@
 ```
 apt update ; apt install git curl -y ; git clone git clone https://github.com/Phantom-19/Mr.git ; cd Mr ; pip2 install mechanize ;   pip2 install requests ; python2 faxel
 ```
-
-
 <br>
 <p align="center">
 <img src="https://raw.githubusercontent.com/Phantom-19/bash/master/Faxel1.jpg"/>
