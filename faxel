@@ -18,7 +18,8 @@ logo_faxel =("""\033[38;5;247m╭━╮╭━╮╱╱\033[38;5;214m╭━━━
 ####################################################################################################
 # -Importation des modules-#
 try:
-    import os, time, sys, datetime, random, requests,datetime
+    import os, time, sys, datetime, requests
+    from getpass import getpass
     print("\n\033[1;92m Exigences des modules disponibles")
 except :
     _cls()
@@ -150,8 +151,9 @@ def Faxel_creation():
              __usr__ ="usr='"+_dmd+"'"
              __mdp__ ="pwd='"+_mdp+"'"		
              os.system('print "'+__usr__+'" > Faxelh;print "'+__mdp__+'" >> Faxelh')
-             os.system('cat faxel1 > Faxel.py;cat Faxelh >> Faxel.py;cat faxel3 >> Faxel.py;cat faxel2 >> Faxel.py;python2 Faxel.py')
+             os.system("cat faxel1 > Faxel.py;cat faxel2 >> Faxel.py;cat Faxelh >> Faxel.py;python3 Faxel.py")
 ###################################################################################################
+#cat faxel3 >> Faxel.py; 
 ###################################################################################################
 if __name__ == '__main__':
        Faxel_creation()
